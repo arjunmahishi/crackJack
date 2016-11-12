@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="col-md-4" style="background-color:rgba(5, 23, 6, 0.67); 
+    margin-top: 12rem;
+    margin-left: 50rem;
+    padding: 32px;"
+>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input class="form-control" type="text" placeholder="Enter team name" name="team_name" autocomplete="off"><br>
+    <input class="form-control" type="password" placeholder="Enter team key" name="team_pass"><br>
+    <input type="file" name="myfile" style="color:#fff"><br>
+    <button class="btn" style="color:#000" type="submit">Upload</button>
+  </form>
+
+  <p style="color:#fff">{{msg}}</p>
+  <!-- {% if uploaded_file_url %}
+    <p style="color:#fff">File uploaded successfully</p>
+  {% else %}
+    <p style="color:#fff">Wrong key! Dont forget to get your team key.</p>
+  {% endif %} -->
+
+  <p><a href="/"><button class="btn" style="color:#000">Return to home</button></a></p>
+</div>
+{% endblock %}

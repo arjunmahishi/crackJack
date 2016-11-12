@@ -1,0 +1,7 @@
+team 1 ~~ key1
+team 2 ~~ key2
+team 3 ~~ key3
+team 4 ~~ key4
+team 5 ~~ key5
+team 6 ~~ key6
+team 7 ~~ key7

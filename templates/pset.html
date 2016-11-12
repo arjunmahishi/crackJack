@@ -1,0 +1,60 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+	<style type="text/css">
+		.jumbotron{
+				background-color:rgba(5, 23, 6, 0.67);
+				color:#ffffff;
+				text-align:center;
+				font-size: x-large;
+			}
+
+	</style>
+
+	{% if flag %}
+
+	{% for q in questions %}
+		<div class="col-md-6">
+			<a href="?id={{q.ind}}" style="text-decoration: none;">
+			<style type="text/css">
+				.jumbotron:hover{
+					background-color:rgba(13, 96, 17, 0.83);
+				}	
+			</style>
+			<div class="jumbotron">
+				<p class="lead">{{ q.problem.upper }}</p>
+				<!-- <button class="btn btn-default">See more</button> -->
+			</div>
+			</a>
+		</div>
+	{% endfor %}
+
+	<div class="col-md-6">
+		<a href="/" style="text-decoration: none;">
+		<style type="text/css">
+			.jumbotron:hover{
+				background-color: #000;
+			}	
+		</style>
+		<div class="jumbotron">
+			<p class="lead">GO BACK</p>
+			<!-- <button class="btn btn-default">See more</button> -->
+		</div>
+		</a>
+	</div>
+
+	{% else %}
+
+		<div class="col-md-6 col-md-offset-3">
+				<div class="jumbotron" style="padding: 24px;">
+					<p class="lead" style="font-weight:900"> <u> {{ pset.problem.upper }} </u> </p>
+					{{ pset.disc }}
+					<br><br>
+					<a href="/problems/"><button class="btn col-md-offset-10" style="color:#000" >Back</button></a>
+				</div>
+		</div>
+
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<html>
+	<head>
+		<title>{{head}} | crack-jack</title>
+		<link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+		<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+		<link rel="icon" href="{% static 'images/fev.ico' %}">
+	</head>
+
+	<h1 style="text-align:center; color:#ffffff;"> {{h1}} </h1><br><br>
+
+	<body style="background:url(../static/images/{{bg}}); 
+	font-family: monospace; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-attachment: fixed;">
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>

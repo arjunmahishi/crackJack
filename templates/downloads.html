@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<a href="{% static 'files/file.txt' %}">
+<button class="btn btn-success">Download</button>
+</a>
+{% endblock %}

@@ -1,0 +1,45 @@
+Web crawling
+~~
+Deadpool has organized a karaoke event for all the superheroes. Being the jerk he is, he hasn’t done a thing to help organize. You are his partner. Create a Web Crawler for the Karaoke machine, that will fetch the lyrics for any song on the internet. Help make this Superhero Karaoke party a bomb.
+
+***
+
+File handling
+~~
+Deadshot has just escaped from his maximum security prison. The system he had in place to manage his contracts has been taken down by Batman. He is paying a lot of money. Design a File Handling System so that he can get back to hunting. He should be able to add records, delete records, modify records as well as  display the records.
+
+***
+
+Android development 
+~~
+Iron Man is a man on the move. He is too busy to build Android apps. He has given a task to Jarvis. RSS feeds are an important source for gathering hidden messages from everyday data. Make a android app to help Jarvis. It should display contents of RSS feeds through card view. Helping Jarvis is helping Iron Man.
+
+***
+
+Web development 
+~~
+The justice league has been formed. The first thing any superhero needs is a suit. You need to help them by making an Ecommerce website for the justice league that includes a cart, search option and a payment gateway. The website should have suits, masks, weapons etc.  You get a chance to be a part of The Justice League, make sure you don’t disappoint them.
+
+***
+
+Automation scripting
+~~
+A programmer’s girlfriend always talks about the Flash. The programmer gets frustrated and he wants to prove that he is no less than the flash when it comes to speed. So, he decides to write an automation script which likes all the new posts of a particular person on Facebook. Your task is to help him prove his point. 
+
+***
+
+Artificial intelligence 
+~~
+The Riddler has managed to plant WMDs at multiple earths at parallel Universes. Flash is the only one who can save them. But Riddler is protecting the weapons with a game of Tic-Tac-Toe at each location. Help Flash by creating a Tic-Tac-Toe playing bot, you will have saved Worlds by doing so.
+
+***
+
+Shell scripting
+~~
+Some students have gone missing from Xavier’s School for Gifted Children. The culprits have injected a worm into Professor Xavier’s System. The System is now filled unnecessary directories. Using Shell Scripting develop a program to Sort and Delete files based on their extensions. There should be an interface to decide on Sorting and Deleting. 
+
+***
+
+API based application
+~~
+You will be provided with a rest API which fetches news items from the main website of SRM university. Your task is to make an innovative product using this API. URL : https://api.myjson.com/bins/2nvhk
